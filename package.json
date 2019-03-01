@@ -1,0 +1,27 @@
+{
+  "name": "voice-recognition-nodejs",
+  "version": "1.0.0",
+  "description": "just a project to learn about voice recognition in nodejs (using speech google's api)",
+  "main": "app.js",
+  "repository": "https://github.com/andredezzy/voice-recognition-nodejs.git",
+  "author": "André Victor <andredezzy@outlook.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@google-cloud/speech": "^2.3.0",
+    "node-record-lpcm16": "^0.3.1",
+    "rec": "^0.2.3",
+    "sox": "^0.1.0"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "2.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "scripts": {
+    "start": "node ./src/app.js"
+  }
+}
