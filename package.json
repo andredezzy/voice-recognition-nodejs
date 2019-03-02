@@ -9,9 +9,11 @@
   "private": false,
   "dependencies": {
     "@google-cloud/speech": "^2.3.0",
+    "mic": "^2.1.2",
     "node-record-lpcm16": "^0.3.1",
-    "rec": "^0.2.3",
-    "sox": "^0.1.0"
+    "readline-sync": "^1.4.9",
+    "sox": "^0.1.0",
+    "watson-developer-cloud": "^3.18.1"
   },
   "devDependencies": {
     "cz-conventional-changelog": "2.1.0"
